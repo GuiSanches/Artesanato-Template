@@ -4,6 +4,8 @@ import Topbar from "../src/Sections/Header/Topbar";
 import styles from "../styles/Home.module.css";
 import CallToAction from "../src/Sections/CallToAction";
 import Benefits from "../src/Sections/Benefits";
+import Contact from "../src/Sections/Contact";
+import About from "../src/Sections/About";
 
 const Home: NextPage = () => {
   return (
@@ -14,9 +16,13 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Topbar />
       <CallToAction />
       <Benefits />
+
+      <About />
+
+      <Contact />
+      <Topbar />
     </div>
   );
 };

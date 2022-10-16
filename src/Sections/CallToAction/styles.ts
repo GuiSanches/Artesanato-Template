@@ -7,6 +7,7 @@ export const Container = styled.section`
   background-color: green;
   padding-left: 1em;
   position: relative;
+  margin-top: 5em;
 `;
 
 export const BackgroundWrapper = styled.div`

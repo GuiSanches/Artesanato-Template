@@ -1,11 +1,15 @@
 import styled from "styled-components";
 
-export const Navbar = styled.nav`
+export const Navbar = styled.header`
   display: flex;
+  width: 100%;
   height: 5em;
   background-color: #ffffff;
 
   padding-left: 3em;
+  position: fixed;
+  top: 0;
+  z-index: 20;
 `;
 
 export const Container = styled.div`
