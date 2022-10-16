@@ -6,6 +6,7 @@ import CallToAction from "../src/Sections/CallToAction";
 import Benefits from "../src/Sections/Benefits";
 import Contact from "../src/Sections/Contact";
 import About from "../src/Sections/About";
+import Divider from "../src/Components/Divider";
 
 const Home: NextPage = () => {
   return (
@@ -17,9 +18,12 @@ const Home: NextPage = () => {
       </Head>
 
       <CallToAction />
+      
       <Benefits />
+      <Divider />
 
       <About />
+      <Divider />
 
       <Contact />
       <Topbar />

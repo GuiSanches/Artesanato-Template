@@ -4,7 +4,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 1.3em;
+  padding: 1.3em 0;
 `;
 
 export const Title = styled.h2`
