@@ -28,22 +28,22 @@ const Contact: FC = () => {
       <SocialMedias>
         <SocialItem
           icon={Icon}
-          content="@bordadosflores - (instagram)"
+          content="@bordadosflores"
           href="whatsapp.com"
         />
         <SocialItem
           icon={Icon}
-          content="@bordadosflores - (whatsapp)"
+          content="(11) 95220-6881"
           href="whatsapp.com"
         />
         <SocialItem
           icon={Icon}
-          content="@bordadosflores - (telegram)"
+          content="@claudiaflores"
           href="whatsapp.com"
         />
         <SocialItem
           icon={Icon}
-          content="@bordadosflores - (email)"
+          content="claudiaflores1903@gmail.com"
           href="whatsapp.com"
         />
       </SocialMedias>

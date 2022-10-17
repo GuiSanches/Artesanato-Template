@@ -8,6 +8,7 @@ export const Container = styled.section`
   padding-left: 1em;
   position: relative;
   margin-top: 5em;
+  font-family: "Fuzzy Bubbles";
 `;
 
 export const BackgroundWrapper = styled.div`
@@ -37,7 +38,7 @@ export const Title = styled.h3`
   font-size: 2.3em;
   line-height: 1.1em;
   padding-right: 0.8em;
-  color: #FFFF;
+  color: #ffff;
 `;
 
 export const Button = styled.a`
@@ -49,4 +50,10 @@ export const Button = styled.a`
   background-color: #fcff34;
   color: #36254e;
   font-size: 0.9em;
+
+  &:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    background-color: #ffff;
+    color: #36254e;
+  }
 `;

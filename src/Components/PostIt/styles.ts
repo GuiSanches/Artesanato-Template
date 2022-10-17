@@ -41,7 +41,8 @@ export const FrontBox = styled.div`
 `;
 
 export const Message = styled.h4`
-  font-size: 1.6em;
+  font-family: "Fuzzy Bubbles";
+  font-size: 1.4em;
   text-align: center;
   color: #c2a0aa;
   margin: 0;

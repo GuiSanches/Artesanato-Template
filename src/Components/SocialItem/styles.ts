@@ -15,12 +15,13 @@ export const Card = styled.div`
 `;
 
 export const Icon = styled.div`
-  width: 40px;
+  width: 24px;
   position: relative;
-  margin-right: 0.8em;
+  margin-right: 0.6em;
 `;
 
 export const Link = styled.a`
   text-decoration: none;
   font-weight: 700;
+  font-size: 1em;
 `;

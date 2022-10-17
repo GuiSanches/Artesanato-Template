@@ -5,6 +5,7 @@ export const Container = styled.div`
   flex: 1;
   box-sizing: border-box;
   justify-content: center;
+  font-family: "Fuzzy Bubbles";
 `;
 
 const size = 220;
@@ -69,13 +70,13 @@ export const TextContent = styled.div`
 
 export const Header = styled.h4`
     color: #645F74;
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-weight: 700;
     margin: 0;
 `;
 
 export const Subcontent = styled.p`
     color: #FFFF;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.3em;
 `;
